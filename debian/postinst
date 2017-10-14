@@ -36,4 +36,9 @@ esac
 
 #DEBHELPER#
 
+useradd --disable-password --no-create-home --gecos "Séries Iniciais" iniciais
+chown -R iniciais: /home/iniciais
+
+su iniciais -c /usr/share/pandorga/scripts/initial-iniciais.sh
+
 exit 0
