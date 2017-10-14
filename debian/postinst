@@ -38,6 +38,6 @@ esac
 
 adduser --disabled-password --gecos "Séries Iniciais" iniciais
 
-su iniciais -c /usr/share/pandorga/scripts/initial-iniciais.sh
+su iniciais -c /usr/share/pandorga/scripts/setup--iniciais.sh
 
 exit 0
