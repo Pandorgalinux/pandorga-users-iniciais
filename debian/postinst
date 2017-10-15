@@ -37,6 +37,7 @@ esac
 #DEBHELPER#
 
 adduser --disabled-password --gecos "Séries Iniciais" iniciais
+echo 'iniciais:iniciais' | chpasswd
 
 su iniciais -c /usr/share/pandorga/scripts/setup-iniciais.sh
 
